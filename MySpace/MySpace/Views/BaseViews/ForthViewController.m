@@ -8,6 +8,18 @@
 
 #import "ForthViewController.h"
 
+@implementation ForthViewCustomSegue
+
+-(void)perform
+{
+  UIViewController *current = self.sourceViewController;
+  UIViewController *next = self.destinationViewController;
+  [current.navigationController pushViewController:next animated:YES];
+}
+
+@end
+
+
 @interface ForthViewController ()
 
 @end
@@ -29,14 +41,30 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+  // forthCustomSegueId
+  NSLog(@"--------- segue:%@ ,id:%@ ------------",segue,segue.identifier);
 }
-*/
+
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(nullable id)sender
+{
+  NSLog(@"---===--- shouldPerformSegueWithIdentifier :%@ , sender:%@ ---===---",identifier,sender);
+  return YES;
+}
+
+- (void)performSegueWithIdentifier:(NSString *)identifier sender:(nullable id)sender
+{
+  NSLog(@"---===--- performSegueWithIdentifier :%@ , sender:%@ ---===---",identifier,sender);
+}
+
+- (BOOL)canPerformUnwindSegueAction:(SEL)action fromViewController:(UIViewController *)fromViewController withSender:(id)sender
+{
+  NSLog(@"---===--- canPerformUnwindSegueAction:%@ , fromViewController:%@ , sender:%@ ---===---",NSStringFromSelector(action),fromViewController,sender);
+  return YES;
+}
 
 @end

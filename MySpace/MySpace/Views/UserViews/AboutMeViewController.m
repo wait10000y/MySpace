@@ -8,8 +8,12 @@
 
 #import "AboutMeViewController.h"
 
+#import "TestXibViewController.h"
+
 @interface AboutMeViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *textTips;
+- (IBAction)actionBack:(UIButton *)sender;
+- (IBAction)actionNewView:(UIButton *)sender;
 
 @end
 
@@ -45,4 +49,56 @@
   // Pass the selected object to the new view controller.
 }
 
+- (IBAction)actionBack:(UIButton *)sender {
+  if (self.navigationController) {
+    [self.navigationController popViewControllerAnimated:YES];
+    NSLog(@"-------- AboutMeViewController back completion ---------");
+  }
+  
+  [self dismissViewControllerAnimated:YES completion:^{
+    NSLog(@"-------- AboutMeViewController back completion ---------");
+  }];
+}
+
+- (IBAction)actionNewView:(UIButton *)sender {
+  switch (sender.tag) {
+    case 0:
+    {
+      
+    } break;
+    case 1:
+    {
+      
+    } break;
+    case 2:
+    {
+      
+    } break;
+    case 3:
+    {
+      
+    } break;
+    case 4:
+    {
+      
+    } break;
+    case 5: // 自定义xib 加载
+    {
+      TestXibViewController *txvc = [[TestXibViewController alloc] initWithNibName:nil bundle:nil];
+      txvc.title = @"testXib";
+      if (self.navigationController) {
+        [self.navigationController pushViewController:txvc animated:YES];
+      }else{
+        [self presentViewController:txvc animated:YES completion:^{
+          txvc.title = @"testXib2";
+        }];
+      }
+      
+    } break;
+      
+    default:
+      break;
+  }
+  NSLog(@"========== actionNewView event :%ld ===========",(long)sender.tag);
+}
 @end

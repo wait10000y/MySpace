@@ -10,6 +10,9 @@
 
 @interface ServiceAgreementViewController ()
 
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+- (IBAction)actionBackLastView:(UIButton *)sender;
+
 @end
 
 @implementation ServiceAgreementViewController
@@ -17,6 +20,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+  
+
+  if (self.webView) {
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.apple.com/cn/privacy/"] cachePolicy:0 timeoutInterval:10];
+    
+    [self.webView loadRequest:request];
+  }
+  
+  
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +46,14 @@
 }
 */
 
+- (IBAction)actionBackLastView:(UIButton *)sender {
+  if (self.navigationController) {
+    [self.navigationController popViewControllerAnimated:YES];
+  }
+
+  [self dismissViewControllerAnimated:YES completion:^{
+    NSLog(@"-------- ServiceAgreementViewController back completion ---------");
+  }];
+  
+}
 @end

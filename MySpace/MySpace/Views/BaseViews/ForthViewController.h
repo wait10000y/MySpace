@@ -8,6 +8,11 @@
 
 #import "BaseViewController.h"
 
+
+@interface ForthViewCustomSegue : UIStoryboardSegue
+
+@end
+
 @interface ForthViewController : BaseViewController
 
 @end

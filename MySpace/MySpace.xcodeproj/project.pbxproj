@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E724E0061BD4D2EE00098212 /* TestCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E724E0051BD4D2EE00098212 /* TestCustomSegue.m */; settings = {ASSET_TAGS = (); }; };
 		E730A3B51BD09FD400223FB7 /* ServiceAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E730A3B41BD09FD400223FB7 /* ServiceAgreementViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E77765F61BD730C500DFEA84 /* TestXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77765F41BD730C500DFEA84 /* TestXibViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E77765F71BD730C500DFEA84 /* TestXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E77765F51BD730C500DFEA84 /* TestXibViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		E77765FA1BD77BF800DFEA84 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E77765F91BD77BF800DFEA84 /* BaseView.m */; settings = {ASSET_TAGS = (); }; };
+		E77765FD1BD77C1500DFEA84 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E77765FC1BD77C1500DFEA84 /* BaseObject.m */; settings = {ASSET_TAGS = (); }; };
 		E7A83A4F1BAC199F007838B2 /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A83A4D1BAC199F007838B2 /* AboutMeViewController.m */; };
-		E7A83A501BAC199F007838B2 /* AboutMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A83A4E1BAC199F007838B2 /* AboutMeViewController.xib */; };
 		E7DE24D51BAC05A100C8592C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE24D41BAC05A100C8592C /* main.m */; };
 		E7DE24D81BAC05A100C8592C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE24D71BAC05A100C8592C /* AppDelegate.m */; };
 		E7DE24E11BAC05A100C8592C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DE24DF1BAC05A100C8592C /* Main.storyboard */; };
 		E7DE24E31BAC05A100C8592C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7DE24E21BAC05A100C8592C /* Images.xcassets */; };
 		E7DE24E61BAC05A200C8592C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7DE24E41BAC05A200C8592C /* LaunchScreen.xib */; };
 		E7DE24F21BAC05A200C8592C /* MySpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE24F11BAC05A200C8592C /* MySpaceTests.m */; };
-		E7DE24FC1BAC05EE00C8592C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DE24FB1BAC05EE00C8592C /* libsqlite3.dylib */; };
 		E7DE25201BAC087900C8592C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE251A1BAC087900C8592C /* BaseViewController.m */; };
 		E7DE25211BAC087900C8592C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE251C1BAC087900C8592C /* FirstViewController.m */; };
 		E7DE25221BAC087900C8592C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DE251E1BAC087900C8592C /* SecondViewController.m */; };
@@ -38,11 +41,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E724E0041BD4D2EE00098212 /* TestCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCustomSegue.h; sourceTree = "<group>"; };
+		E724E0051BD4D2EE00098212 /* TestCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCustomSegue.m; sourceTree = "<group>"; };
 		E730A3B31BD09FD400223FB7 /* ServiceAgreementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceAgreementViewController.h; sourceTree = "<group>"; };
 		E730A3B41BD09FD400223FB7 /* ServiceAgreementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceAgreementViewController.m; sourceTree = "<group>"; };
+		E77765F31BD730C500DFEA84 /* TestXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestXibViewController.h; sourceTree = "<group>"; };
+		E77765F41BD730C500DFEA84 /* TestXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestXibViewController.m; sourceTree = "<group>"; };
+		E77765F51BD730C500DFEA84 /* TestXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestXibViewController.xib; sourceTree = "<group>"; };
+		E77765F81BD77BF800DFEA84 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		E77765F91BD77BF800DFEA84 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		E77765FB1BD77C1500DFEA84 /* BaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
+		E77765FC1BD77C1500DFEA84 /* BaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseObject.m; sourceTree = "<group>"; };
 		E7A83A4C1BAC199F007838B2 /* AboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMeViewController.h; sourceTree = "<group>"; };
 		E7A83A4D1BAC199F007838B2 /* AboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMeViewController.m; sourceTree = "<group>"; };
-		E7A83A4E1BAC199F007838B2 /* AboutMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutMeViewController.xib; sourceTree = "<group>"; };
 		E7DE24CF1BAC05A100C8592C /* MySpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DE24D31BAC05A100C8592C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7DE24D41BAC05A100C8592C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +65,6 @@
 		E7DE24EB1BAC05A200C8592C /* MySpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DE24F01BAC05A200C8592C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7DE24F11BAC05A200C8592C /* MySpaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpaceTests.m; sourceTree = "<group>"; };
-		E7DE24FB1BAC05EE00C8592C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		E7DE25191BAC087900C8592C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		E7DE251A1BAC087900C8592C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		E7DE251B1BAC087900C8592C /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -78,7 +88,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7DE24FC1BAC05EE00C8592C /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +104,6 @@
 		E7DE24C61BAC05A100C8592C = {
 			isa = PBXGroup;
 			children = (
-				E7DE24FB1BAC05EE00C8592C /* libsqlite3.dylib */,
 				E7DE24D11BAC05A100C8592C /* MySpace */,
 				E7DE24EE1BAC05A200C8592C /* MySpaceTests */,
 				E7DE24D01BAC05A100C8592C /* Products */,
@@ -187,6 +195,10 @@
 		E7DE25181BAC087900C8592C /* BaseViews */ = {
 			isa = PBXGroup;
 			children = (
+				E77765FB1BD77C1500DFEA84 /* BaseObject.h */,
+				E77765FC1BD77C1500DFEA84 /* BaseObject.m */,
+				E77765F81BD77BF800DFEA84 /* BaseView.h */,
+				E77765F91BD77BF800DFEA84 /* BaseView.m */,
 				E7DE25191BAC087900C8592C /* BaseViewController.h */,
 				E7DE251A1BAC087900C8592C /* BaseViewController.m */,
 				E7DE25231BAC08B900C8592C /* BaseNavigationViewController.h */,
@@ -212,9 +224,13 @@
 			children = (
 				E7A83A4C1BAC199F007838B2 /* AboutMeViewController.h */,
 				E7A83A4D1BAC199F007838B2 /* AboutMeViewController.m */,
-				E7A83A4E1BAC199F007838B2 /* AboutMeViewController.xib */,
 				E730A3B31BD09FD400223FB7 /* ServiceAgreementViewController.h */,
 				E730A3B41BD09FD400223FB7 /* ServiceAgreementViewController.m */,
+				E724E0041BD4D2EE00098212 /* TestCustomSegue.h */,
+				E724E0051BD4D2EE00098212 /* TestCustomSegue.m */,
+				E77765F31BD730C500DFEA84 /* TestXibViewController.h */,
+				E77765F41BD730C500DFEA84 /* TestXibViewController.m */,
+				E77765F51BD730C500DFEA84 /* TestXibViewController.xib */,
 			);
 			path = UserViews;
 			sourceTree = "<group>";
@@ -268,6 +284,7 @@
 				TargetAttributes = {
 					E7DE24CE1BAC05A100C8592C = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = E8ACXHT4W6;
 					};
 					E7DE24EA1BAC05A200C8592C = {
 						CreatedOnToolsVersion = 6.4;
@@ -299,9 +316,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77765F71BD730C500DFEA84 /* TestXibViewController.xib in Resources */,
 				E7DE24E11BAC05A100C8592C /* Main.storyboard in Resources */,
 				E7DE24E61BAC05A200C8592C /* LaunchScreen.xib in Resources */,
-				E7A83A501BAC199F007838B2 /* AboutMeViewController.xib in Resources */,
 				E7DE24E31BAC05A100C8592C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,16 +338,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7DE25221BAC087900C8592C /* SecondViewController.m in Sources */,
+				E724E0061BD4D2EE00098212 /* TestCustomSegue.m in Sources */,
+				E77765FA1BD77BF800DFEA84 /* BaseView.m in Sources */,
 				E7DE25251BAC08B900C8592C /* BaseNavigationViewController.m in Sources */,
 				E7DE252E1BAC0D1A00C8592C /* ForthViewController.m in Sources */,
 				E7DE252B1BAC09A900C8592C /* ThirdViewController.m in Sources */,
 				E7DE24D81BAC05A100C8592C /* AppDelegate.m in Sources */,
 				E7A83A4F1BAC199F007838B2 /* AboutMeViewController.m in Sources */,
 				E7DE25201BAC087900C8592C /* BaseViewController.m in Sources */,
+				E77765FD1BD77C1500DFEA84 /* BaseObject.m in Sources */,
 				E7DE25281BAC08D700C8592C /* BaseTabBarViewController.m in Sources */,
 				E7DE24D51BAC05A100C8592C /* main.m in Sources */,
 				E7DE25311BAC0D2C00C8592C /* FifthViewController.m in Sources */,
 				E730A3B51BD09FD400223FB7 /* ServiceAgreementViewController.m in Sources */,
+				E77765F61BD730C500DFEA84 /* TestXibViewController.m in Sources */,
 				E7DE25211BAC087900C8592C /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -446,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -457,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MySpace/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -468,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MySpace/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
