@@ -23,7 +23,7 @@
   
 
   if (self.webView) {
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.apple.com/cn/privacy/"] cachePolicy:0 timeoutInterval:10];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.apple.com/cn/privacy/privacy-policy/"] cachePolicy:0 timeoutInterval:10];
     
     [self.webView loadRequest:request];
   }
